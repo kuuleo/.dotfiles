@@ -1,0 +1,5 @@
+#\!/usr/bin/env sh
+echo "Installing.."
+
+#Shell settings
+ln -sv /Users/drifter/.dotfiles/.config/tmux/tmux.conf ~/.tmux.conf
