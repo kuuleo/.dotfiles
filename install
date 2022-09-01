@@ -3,3 +3,8 @@ echo "Installing.."
 
 #Shell settings
 ln -sv /Users/drifter/.dotfiles/.config/tmux/tmux.conf ~/.tmux.conf
+ln -sv /Users/drifter/.dotfiles/.config/tmux/macos.conf ~/macos.conf
+ln -sv /Users/drifter/.dotfiles/.config/tmux/statusline.conf ~/statusline.conf
+ln -sv /Users/drifter/.dotfiles/.config/tmux/utility.conf ~/utility.conf
+
+ln -sv /Users/drifter/.dotfiles/.config/nvim ~/.config
