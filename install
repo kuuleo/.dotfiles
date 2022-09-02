@@ -8,3 +8,4 @@ ln -sv /Users/drifter/.dotfiles/.config/tmux/statusline.conf ~/statusline.conf
 ln -sv /Users/drifter/.dotfiles/.config/tmux/utility.conf ~/utility.conf
 
 ln -sv /Users/drifter/.dotfiles/.config/nvim ~/.config
+ln -sv /Users/drifter/.dotfiles/.config/fish ~/.config
