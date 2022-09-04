@@ -18,4 +18,16 @@
 * That was from the REF: installing go from Medium... I think *
 * ... oh well... it's in here just in case I want it *
 
-
+* [x] all of the fish configuration is in ~/.dotfiles/.config/fish
+* [x] there is a symbolic link from ~/.dotfiles/.config/fish to ~/.config/fish
+**The functions are boing found in the example react app for typescript functions**
+**... but it is only working in zsh and not fish**
+**... in fish I get typescript-language-server not found error**
+## the lsp is ??WHAT? ... that neovim lsm dep
+*it is neovim/nvim-lspconfig*
+*it is being installed by Packer*
+* [ ] see if it is a packer problem
+* [ ] ... or see if it is a fish problem
+*it has something to do in fish since it is working in zsh and not fish*
+*... unless I had installed something from the Wiesler tutorials that configured the typescript lsp to work...??*
+"

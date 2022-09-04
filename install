@@ -1,6 +1,12 @@
 #\!/usr/bin/env sh
 echo "Installing.."
 
+# add zsh to valid login shells
+command -v zsh | sudo tee -a /etc/shells
+
+# use zsh as default shells
+sudo chsh -s $(which zsh) $USER
+
 #Shell settings
 ln -sv /Users/drifter/.dotfiles/.config/tmux/tmux.conf ~/.tmux.conf
 ln -sv /Users/drifter/.dotfiles/.config/tmux/macos.conf ~/macos.conf
