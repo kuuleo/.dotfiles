@@ -15,3 +15,9 @@ ln -sv /Users/drifter/.dotfiles/.config/tmux/utility.conf ~/utility.conf
 
 ln -sv /Users/drifter/.dotfiles/.config/nvim ~/.config
 ln -sv /Users/drifter/.dotfiles/.config/fish ~/.config
+
+ln -sv /Users/drifter/.dotfiles/.config/zsh/.zshrc ~/.zshrc
+ln -sv /Users/drifter/.dotfiles/.config/zsh/.zsh_plugins.txt ~/.zsh_plugins.txt
+ln -sv /Users/drifter/.dotfiles/.config/zsh/.zsh_plugins.sh ~/.zsh_plugins.sh
+
+antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh

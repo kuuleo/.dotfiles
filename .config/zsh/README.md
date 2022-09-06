@@ -36,3 +36,17 @@
 * [x] zsh-users/zsh-autosuggestions
 * [x] zsh-users/zsh-completions
 * [x] zsh-users/zsh-syntax-highlighting
+* [x] add aliases back to .zshrc ( nvim and ls -la )
+* [x] source .zsh in .dotfiles/install after
+* [x] move .zshrc to ~/dotfiles/.config/zsh/.zshrc
+* [x] make symbolic link between .zshrc and ~/.dotfiles/.config/zsh/.zshrc
+#ls -la is runnning WHEN I type ls
+
+* [ ] zsh directory along with a .zshrc or is .zshrc sufficient
+
+* [ ] get typescrpt language server running again per Wiesler) with the exception that I'm using packer to install lsp-config instead of vim-plug
+
+* [x] run `stow zsh` from the `~/.dotfiles/.config` directory
+##That's not WHAT I wanted... that put all the symbolic links in the ~/.dotfiles directory
+* [ ] undo the stow zsh command
+
